@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+input[type="text"], input[type="password"], input[type="number"] {
+	height: 27px;
+	width: 250px;
+	font-size: 15px;
+}
+
+input[type="button"], input[type="submit"] {
+	width : 120px;
+	height :30px;
+	background-color: white;
+	-box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 0px #348ABF;
+	border: outset #348ABF 2px;
+	transition: transform 0.1s ease;	
+	border-radius: 10px;
+}
+
+input[type="button"]:active, input[type="submit"]:active {
+	border: inset #348ABF 2px;
+	transform: translate(1px, 1px);
+	-box-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: -1px -1px 0px #348ABF;
+}
+input[type="submit"].pageButton {
+	width:30px;
+	height: 30px;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+#nowPage {
+	background-color:powderblue;
+}
+
+#pageButtonBox {
+  display: flex;
+}
+
+body {
+	margin: 0px;
+	margin-bottom: 100px;
+}
+
+.container {
+	min-width: 1000px;
+}
+
+
+
+.background {
+	width:100%;
+	z-index: -10;
+	position: relative;
+}
+
+#main {
+	width: 100%;
+	min-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.errerMessage {
+	color:red;
+	margin:0px;
+	margin-top:3px;
+}
+
+.currencyKR {
+	color:#0080ff;
+	margin:0px;
+	margin-top:3px;
+}
+
+.midLine {
+	width:1000px;
+	border:1px solid gray;
+}
+
+.cloudBorder {
+	border: none;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #348ABF;
+	margin: 0px;
+	height: 40px;
+}
+
+header #headerContainer {
+	width: 100%;
+	min-width: 1000px;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header .headerMenus {
+	font-size: 17px;
+	height: 100%;
+	width: 150px;
+	background-color: #348ABF;
+	color: white;
+	border: none;
+	box-shadow: none;
+}
+
+header .headerMenus:hover {
+	background-color: rgba(219, 219, 219, 0.144);
+}
+
+header .headerMenus:active {
+	transform: none;
+	box-shadow: none;
+}
+
