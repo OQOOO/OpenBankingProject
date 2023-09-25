@@ -9,17 +9,18 @@
 
 ## 프로젝트 활성화 방법
 1. 데이터베이스 테이블 생성
-   - src/main/webapp/WEB-INF/sqlTable 참조
+   - webapp/WEB-INF/sqlTable 참조
     
-2. src/main/java/kr/ac/kopo/util/Secrets.java 작성
+2. util/Secrets.java 작성
    - 해당 파일은 vo 형태의 파일이며 다음과 같은 요소가 필요합니다.
       - String kakaoKey
       - String NaverId
       - String NaverSecrets
-   - 위 변수들을 선언한 후 자신의 kakao, naver API key 값으로 초기화 해야합니다.
+   - 위 변수들을 선언한 후 자신의 kakao, naver API key 값을 할당해야 합니다.
 
 3. 팀원간 연동
-   - 특정 조원들간의 연결을 상정한 프로젝트기에 임시적으로 비활성화 되어있습니다.
+   - 특정 조원들간의 연결을 상정한 프로젝트기에 연동 없을경우의 오류를 방지하기 위해 비활성화 시켜두었습니다.
+   - 해당 기능을 활성화 시키기 위해선 controller/pages/ToIndexMainController.java 파일과 관련 DAO수정이 필요합니다.
   
 ## 기타
 최근 보안 문제로 레파지토리를 변경했습니다...
