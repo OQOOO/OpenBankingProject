@@ -20,7 +20,7 @@
 
 3. 팀원간 연동
    - 특정 조원들간의 연결을 상정한 프로젝트기에 연동 없을경우의 오류를 방지하기 위해 비활성화 시켜두었습니다.
-   - 해당 기능을 활성화 시키기 위해선 controller/pages/ToIndexMainController.java 파일과 관련 DAO수정이 필요합니다.
+   - 해당 기능을 활성화 시키기 위해선 controller/pages/ToIndexMainController.java 파일의 수정이 필요합니다.
   
 ## 기타
 최근 보안 문제로 레파지토리를 변경했습니다...
