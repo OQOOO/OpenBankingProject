@@ -1,5 +1,3 @@
-![](https://oqooo.github.io/LimKiHong-Portfolio/assets/img/loginAndTransfer2.gif)
-
 # OpenBankingProject
 팀원간 계좌 연동이 가능한 오픈뱅킹 시스템입니다.<br>
 연동된 서버에서 같은 이메일의 유저 계좌를 하나의 웹서버에서 보고 관리할 수 있습니다.
@@ -26,3 +24,5 @@
   
 ## 기타
 보안 문제로 레파지토리를 변경했습니다...
+
+![500](https://oqooo.github.io/LimKiHong-Portfolio/assets/img/loginAndTransfer2.gif)
